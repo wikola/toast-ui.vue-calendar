@@ -1,8 +1,9 @@
-# TOAST UI Calendar for Vue
+# TOAST UI Calendar for Vue 3
 
 > This is Vue component wrapping [TOAST UI Calendar](https://github.com/nhn/tui.calendar).
+> It is a fork from nhn/toast-ui.vue-calendar fix for Vue3 Comptibility
 
-[![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
+[![vue3](https://img.shields.io/badge/vue-3.x-brightgreen.svg)](https://vuejs.org/)
 [![github version](https://img.shields.io/github/release/nhn/toast-ui.vue-calendar.svg)](https://github.com/nhn/toast-ui.vue-calendar/releases/latest)
 [![npm version](https://img.shields.io/npm/v/@toast-ui/vue-calendar.svg)](https://www.npmjs.com/package/@toast-ui/vue-calendar)
 [![license](https://img.shields.io/github/license/nhn/toast-ui.vue-calendar.svg)](https://github.com/nhn/toast-ui.vue-calendar/blob/master/LICENSE)
