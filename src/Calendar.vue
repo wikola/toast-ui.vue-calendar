@@ -172,7 +172,7 @@ export default {
     this.addEventListeners();
     this.reflectSchedules();
   },
-  beforeDestroy() {
+  beforeUnmount() {
     this.calendarInstance.off();
     this.calendarInstance.destroy();
   },
@@ -181,7 +181,7 @@ export default {
       return JSON.parse(JSON.stringify(data));
     },
     addEventListeners() {
-      for (const eventName of Object.keys(this.$listeners)) {
+       for (const eventName of Object.keys(this.$attrs).filter(el => el.substring(0, 2) === 'on').map(el => el[2].toLowerCase() + el.substring(3))) {
         this.calendarInstance.on(eventName, (...args) => this.$emit(eventName, ...args));
       }
     },
